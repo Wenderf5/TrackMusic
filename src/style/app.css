@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+.musicasBloco {
+    width: 100%;
+    height: 500px;
+    left: 30%;
+    top: 60%;
+    overflow: auto;
+ 
+}
+
+.blocoPrincipal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    height: 550px;
+    left: 30%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+
+}
+
+.bloco2 {
+    width: 370px;
+    height: 422px;
+    position: absolute;
+    left: 75%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    background-color: black;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #09ff00;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    top: 0%;
+    height: 70px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.128);
+}
+
+.titulo1 {
+    width: 250px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: absolute;
+    font-size: 17px;
+    transform: translate(-50%, -50%);
+    left: 30%;
+    top: 50%;
+}
+
+h1 {
+    margin-left: 3%;
+}
+
+.resultado{
+    width: 80%;
+    height: 20px;
+    color: #888888;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 900px) and (max-width: 1140px) {
+
+    .bloco2 {
+        left: 80%;
+        top: 60%;
+        width: 310px;
+        height: 422px;
+    }
+
+    .blocoPrincipal {
+
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 899px) {
+
+    .bloco2 {
+        left: 79.50%;
+        top: 65%;
+        width: 300px;
+        height: 422px;
+    }
+
+    .blocoPrincipal {
+        width: 440px;
+        height: 500px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .bloco2 {
+        display: none;
+    }
+
+    .blocoPrincipal {
+        top: 53%;
+        left: 50%;
+        width: 98%;
+        height: 80%;
+    }
+
+    .musicasBloco {
+        width: 100%;
+        height: 100%;
+        left: 30%;
+        top: 60%;
+        overflow: auto;
+    }
+
+    .titulo1 {
+        display: flex;
+        justify-content: center;
+        left: 50%;
+        width: 99%;
+        height: 58px;
+        font-size: 13px;
+    }
+
+    h1 {
+        margin-left: 3%;
+    }
+
+    .navbar {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        background-color: #0b0b0b;
+        width: 100%;
+        top: 0%;
+        height: 60px;
+        box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.128);
+    }
+}

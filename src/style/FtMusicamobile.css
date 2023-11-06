@@ -1,0 +1,80 @@
+@media (min-width: 1141px) {
+    .navBarbottom {
+        display: none;
+        position: absolute;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        background-color: #0b0b0b;
+        bottom: 0%;
+    }
+
+    .imgmobilemusica {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height: 100%;
+    }
+
+    .musicNameMobile {
+        width: 80%;
+        padding-left: 3%;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 15px;
+    }
+}
+    @media (min-width: 900px) and (max-width: 1140px) {
+        .navBarbottom {
+            display: none;
+            position: absolute;
+            justify-content: space-between;
+            width: 100%;
+            height: 50px;
+            background-color: #0b0b0b;
+            bottom: 0%;
+        }
+    }
+
+@media (min-width: 769px) and (max-width: 899px) {
+    .navBarbottom {
+        display: none;
+        position: absolute;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        background-color: #0b0b0b;
+        bottom: 0%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navBarbottom {
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        background-color: #0b0b0b;
+        bottom: 0%;
+    }
+
+    .imgmobilemusica {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height: 100%;
+    }
+
+    .musicNameMobile {
+        width: 80%;
+        padding-left: 3%;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 15px;
+    }
+}
