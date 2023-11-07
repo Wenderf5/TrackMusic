@@ -1,4 +1,4 @@
-.musicas{
+.musicas {
     display: flex;
     margin-bottom: 20px;
     width: 500px;
@@ -8,36 +8,44 @@
     margin-left: 10px;
     cursor: pointer;
 }
-.img{
+
+.img {
     margin-left: 5px;
     width: 8%;
     display: flex;
     align-items: center;
 }
-.nomes{
-    width: 84%;
+
+.nomes {
+    width: 76%;
     display: flex;
     flex-direction: column;
 }
-.nome{
+
+.nome {
     margin-top: 5px;
     width: 100%;
     font-size: 16px;
     color: white;
+    white-space: nowrap;
+    overflow: hidden;
 }
-.nomebanda{
+
+.nomebanda {
     margin-top: 1px;
     width: 100%;
     font-size: 12px;
     color: #888888;
 }
-.play{
+
+.play {
     width: 7.5%;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
-.favoritar{
+
+.favoritar {
     width: 7.5%;
     display: flex;
     align-items: center;
@@ -45,107 +53,115 @@
 }
 
 @media (min-width: 900px) and (max-width: 1140px) {
-    
-    .musicas{
+
+    .musicas {
         width: 480px;
     }
-    .favoritar{
+
+    .favoritar {
         width: 7.5%;
     }
 
-    .play{
+    .play {
         width: 7.5%;
     }
-    .nomes{
-        width: 87%;
+
+    .nomes {
+        width: 76%;
         display: flex;
         flex-direction: column;
     }
-    .nome{
+
+    .nome {
         margin-top: 5px;
         width: 99%;
         font-size: 16px;
         color: white;
         white-space: nowrap;
         overflow: hidden;
-        text-overflow: ellipsis;
     }
 
-    .nomebanda{
+    .nomebanda {
         margin-top: 1px;
         width: 99%;
         font-size: 12px;
         color: #888888;
     }
-    .img{
+
+    .img {
         margin-left: 5px;
         width: 8%;
         display: flex;
         align-items: center;
     }
-  }
-  @media (min-width: 769px) and (max-width: 899px) {
-    
-    .musicas{
+}
+
+@media (min-width: 769px) and (max-width: 899px) {
+
+    .musicas {
         width: 420px;
     }
 
-    .favoritar{
+    .favoritar {
         width: 7.5%;
     }
 
-    .play{
+    .play {
         width: 7.5%;
     }
-    .nomes{
-        width: 85%;
+
+    .nomes {
+        width: 74%;
         display: flex;
         flex-direction: column;
     }
-    .nome{
+
+    .nome {
         margin-top: 5px;
         width: 99%;
         font-size: 16px;
         color: white;
         white-space: nowrap;
         overflow: hidden;
-        text-overflow: ellipsis;
     }
 
-    .nomebanda{
+    .nomebanda {
         margin-top: 1px;
         width: 99%;
         font-size: 12px;
         color: #888888;
     }
-    .img{
+
+    .img {
         margin-left: 5px;
         width: 10%;
         display: flex;
         align-items: center;
     }
-  }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
 
-    .musicas{
+    .musicas {
         width: 95.50%;
         margin-left: 6px;
     }
 
-    .favoritar{
+    .favoritar {
         width: 11%;
     }
 
-    .play{
+    .play {
         width: 11%;
     }
-    .nomes{
+
+    .nomes {
         width: 65%;
         display: flex;
         flex-direction: column;
     }
-    .nome{
+
+    .nome {
         margin-top: 5px;
         width: 99%;
         font-size: 16px;
@@ -154,16 +170,17 @@
         overflow: hidden;
     }
 
-    .nomebanda{
+    .nomebanda {
         margin-top: 1px;
         width: 99%;
         font-size: 12px;
         color: #888888;
     }
-    .img{
+
+    .img {
         margin-left: 5px;
         width: 12%;
         display: flex;
         align-items: center;
     }
-  }
+}
