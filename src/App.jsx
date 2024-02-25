@@ -19,15 +19,11 @@ function App() {
     }, []);
 
     function CallApi() {
-        const appId = '641661';
-        const appSecret = '775f1c363eee73b902c11b2fbc40133e';
-        const accessToken = `${appId}:${appSecret}`;
-        const searchEndpoint = `https://deezerdevs-deezer.p.rapidapi.com/search?q=${artistName}`;
 
+        const searchEndpoint = `https://deezerdevs-deezer.p.rapidapi.com/search?q=${artistName}`;
         const requestOptions = {
             headers: {
-                'Authorization': `Bearer ${accessToken}`,
-                'X-RapidAPI-Key': '145cdbf4a7mshc71f9b1c1cc64dcp1b5e56jsn4134986c0b17',
+                'X-RapidAPI-Key': '431fa0fce7mshe6decbd0203c9efp10774djsn346e82a88657',
                 'X-RapidAPI-Host': 'deezerdevs-deezer.p.rapidapi.com'
             },
         };
